@@ -15,7 +15,7 @@ class Owner
     if birthday > today
       countdown = (birthday - today).to_i
     else
-      countdowm = (birthday.next_year - today).to_i
+      countdown = (birthday.next_year - today).to_i
     end
   end
   
